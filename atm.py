@@ -1,6 +1,6 @@
 import otp
 pin=1234
-bal=100000000
+bal=10000000000
 u_pin=int(input('Please enter your four digit pin :'))
 if u_pin==pin:
     try:
@@ -38,4 +38,5 @@ if u_pin==pin:
         print('value error,Please enter valid balance')
 else :
     print('"Invalid pin, Unable to process"') 
+
 
