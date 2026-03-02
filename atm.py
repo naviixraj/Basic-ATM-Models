@@ -33,8 +33,9 @@ if u_pin==pin:
                     print("----Thanking you----")
                     break
         else:
-            print('Invalid otp')
+            print('Invalid otp, please enter the valid otp')
     except:
         print('value error,Please enter valid balance')
 else :
     print('"Invalid pin, Unable to process"') 
+
